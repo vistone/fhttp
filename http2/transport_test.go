@@ -31,12 +31,12 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/vistone/utls"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/http2/hpack"
-	"github.com/bogdanfinn/fhttp/httptest"
-	"github.com/bogdanfinn/fhttp/httptrace"
+	http "github.com/vistone/fhttp"
+	"github.com/vistone/fhttp/http2/hpack"
+	"github.com/vistone/fhttp/httptest"
+	"github.com/vistone/fhttp/httptrace"
 )
 
 var (
